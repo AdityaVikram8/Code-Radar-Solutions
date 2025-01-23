@@ -7,5 +7,5 @@
 void main() {
     float num;
     scanf("%f",&num);
-    printf("You entered: 3.14");
+    printf("You entered: %c",num);
 }
