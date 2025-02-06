@@ -7,7 +7,9 @@ int main() {
         char ch=65;
         for(int j=0;j<n;j++){
             printf("%c",ch);
+            ch++;
         }
+        printf("\n");
     }
     return 0;
 }
