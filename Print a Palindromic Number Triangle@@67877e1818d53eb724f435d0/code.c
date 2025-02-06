@@ -12,7 +12,6 @@ int main() {
             printf("%d",a);
             a++;
         }
-        a=1;
         for(int j=0;j<i-1;j++){
             printf("%d",a);
             a++;
