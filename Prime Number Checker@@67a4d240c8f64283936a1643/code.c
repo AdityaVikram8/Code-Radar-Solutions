@@ -1,5 +1,5 @@
 #include <stdio.h>
-// int isPrime(num);
+int isPrime(int num);
 
 int main() {
     int t;
