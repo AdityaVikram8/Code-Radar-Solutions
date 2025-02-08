@@ -11,7 +11,7 @@ int main() {
     }
     return 0;
 }
-int isPrime(num){
+int isPrime(int num){
     if(num<=1){
         return 0;
     }else{
