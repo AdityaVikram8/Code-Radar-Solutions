@@ -3,7 +3,7 @@ int main() {
     int a;
     scanf("%d",&a);
     int position=-1;
-    for(int 31;i>=0;i--){
+    for(int i=31;i>=0;i--){
         if(a&(1<<i)){
             position=i;
         }
