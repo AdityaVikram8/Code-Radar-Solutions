@@ -6,8 +6,8 @@ int main() {
     for(int i=n;i>=0;i--){
         if(num&(1<<i)){
             printf("%d",num&(1<<i));
-            break;
         }
+            break;
     }
     return 0;
 }
