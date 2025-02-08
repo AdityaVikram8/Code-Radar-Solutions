@@ -8,7 +8,7 @@ int main() {
             position=i;
             printf("Set");
         }else{
-        printf("Not Set");
+            printf("Not Set");
         }
         break;
     }
