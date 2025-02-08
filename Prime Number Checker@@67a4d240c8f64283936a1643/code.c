@@ -1,5 +1,5 @@
 #include <stdio.h>
-isPrime(num);
+// isPrime(num);
 
 int main() {
     printf("%s", welcome());
