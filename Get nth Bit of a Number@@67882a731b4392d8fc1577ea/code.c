@@ -8,6 +8,6 @@ int main() {
         bin=bin+rem;
         num=num/10;
     }
-    printf("%d",num%10);
+    printf("%d",bin%10);
     return 0;
 }
