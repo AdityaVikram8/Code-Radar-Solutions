@@ -9,7 +9,7 @@ int main(){
     if(a<=1){
         isflag=false;
     }else{
-        for(int i=2;i<=sqrt(a);i++){
+        for(int i=2;i<=floor(sqrt(a));i++){
             if(a%i==0){
                 isflag=false;
                 break;
