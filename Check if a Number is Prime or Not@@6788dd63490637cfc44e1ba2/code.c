@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-// #include <stdbool.h>
+#include <stdbool.h>
 #include <math.h>
 int main(){
     int a;
@@ -12,6 +12,7 @@ int main(){
         for(int i=2;i<=sqrt(a);i++){
             if(a%i==0){
                 isflag=false;
+                break;
             }
         }
     }
