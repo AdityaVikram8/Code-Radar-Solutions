@@ -10,9 +10,9 @@ int main(){
         printf("%.0f",a-b);
     }else if(c=='*'){
         printf("%.0f",a*b);
+    }else if(b==0){
+        printf("%.0f",a/b);
     }else{
-        if(b==0){
-            printf("%.0f",a/b);
-        }
+        printf("error");
     }
 }
