@@ -1,6 +1,8 @@
 // Your code here...
 #include <stdio.h>
 int main(){
+    int a;
+    scanf("%d",&a);
     bool isflag=true;
     if(a<=1){
         isflag=false;
