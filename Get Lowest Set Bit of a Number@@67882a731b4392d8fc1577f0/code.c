@@ -9,7 +9,7 @@ int main(){
         bin[i]=rem;
         num=num/2;
     }
-    for(int i=0;i<num1;i++){
+    for(int i=0;i<=num1;i++){
         if(bin[i]==1){
             printf("%d",i);
             break;
