@@ -14,8 +14,8 @@ int main(){
     }else{
         bin[pos]=1;
     }
-    // for(int i=0;i<num1;i++){
-    //     sum+=((binpos)*2^i);
-    // }
-    // printf("%d",sum);
+    for(int i=0;i<num1;i++){
+        sum+=((bin[pos])*2^i);
+    }
+    printf("%d",sum);
 }
