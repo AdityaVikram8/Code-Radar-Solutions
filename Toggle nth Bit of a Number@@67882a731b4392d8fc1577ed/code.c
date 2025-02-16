@@ -17,8 +17,11 @@ int main(){
     }else{
         bin[pos]=1;
     }
-    for(int i=0;i<=num1+1;i++){
+    for(int i=0;i<num1;i++){
         sum+=(bin[i])*(1<<i);
+    }
+    if(num1==0){
+        sum+=bin[num1]*(1<<pos)
     }
     printf("%d",sum);
 }
