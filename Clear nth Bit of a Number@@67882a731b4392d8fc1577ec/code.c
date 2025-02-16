@@ -3,7 +3,7 @@
 
 int main() {
     int num, pos, bin[32];
-    double sum = 0;  // sum is declared as a double to handle floating-point calculations
+    double sum = 0.0;  // sum is a double to handle floating-point numbers
     scanf("%d %d", &num, &pos);
 
     int i = 0;
@@ -23,9 +23,10 @@ int main() {
 
     // Convert the modified binary back to decimal using pow() (2^i)
     for (int j = 0; j < i; j++) {
-        sum += bin[j] * pow(2, j);  // No need for casting, sum can now hold the floating-point value
+        sum += bin[j] * pow(2, j);  // Use pow() to calculate powers of 2
     }
 
-    printf("%d\n", (int)sum);  // Output the integer part of sum
+    // Output the result as an integer
+    printf("%d\n", (int)sum);  // Cast the sum to an integer for printing
     return 0;
 }
