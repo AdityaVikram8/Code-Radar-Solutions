@@ -21,7 +21,7 @@ int main(){
         sum+=(bin[i])*(1<<i);
     }
     if(num1==0){
-        sum+=bin[num1]*(1<<pos);
+        sum+=bin[num1]*(2<<pos);
     }
     printf("%d",sum);
 }
