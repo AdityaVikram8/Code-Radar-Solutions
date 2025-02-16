@@ -10,7 +10,7 @@ int main(){
         num=num/2;
     }
     for(int i=0;i<num1;i++){
-        if(num[i]==1){
+        if(bin[i]==1){
             printf("%d",i);
             break;
         }
