@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int num,pos;
+    int num,pos,num1;
     int bin[32];
     scanf("%d %d",&num,&pos);
-    for(int i=0;i<=pos;i++){
+    num1=num;
+    for(int i=0;i<num1;i++){
         int rem=num%2;
         bin[i]=rem;
         num=num/2;
