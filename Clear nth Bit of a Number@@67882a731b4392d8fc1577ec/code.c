@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-    int num,pos,bin[32],num1
-    double sum=0;
+    int num,pos,bin[32],num1,sum=0;
     scanf("%d %d",&num,&pos);
     num1=num;
     for(int i=0;i<num1;i++){
