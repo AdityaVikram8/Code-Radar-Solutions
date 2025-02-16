@@ -16,7 +16,7 @@ int main(){
         bin[pos]=1;
     }
     for(int i=0;i<num1;i++){
-        sum+=(bin[i]*pow(2,i));
+        sum+=(bin[i]*(int)pow(2,i));
     }
     printf("%d",sum);
 }
