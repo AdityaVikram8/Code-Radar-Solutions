@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<num1;i++){
         int rem=num%2;
         bin[i]=rem;
-        num=num%10;
+        num=num%2;
     }
     if(bin[pos]==1){
         bin[pos]=0;
