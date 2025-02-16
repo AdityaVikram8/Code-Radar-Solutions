@@ -13,5 +13,5 @@ int main(){
     for(int i=0;i<sizeof(bin);i++){
         c++;
     }
-    printf("%d",32-c);
+    printf("%d",33-c);
 }
