@@ -11,7 +11,7 @@ int main(){
         num=num/2;
     }
     for(int i=0;i<sizeof(bin);i++){
-        c++;
+        c=c+1;
     }
     printf("%d",c);
 }
