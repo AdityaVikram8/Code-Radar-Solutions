@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int num,num1,c=0;
-    int bin[1];
+    int bin[0];
     scanf("%d",&num);
     num1=num;
     for(int i=0;i<num1;i++){
