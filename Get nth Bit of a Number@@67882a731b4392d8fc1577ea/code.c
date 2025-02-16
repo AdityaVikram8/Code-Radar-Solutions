@@ -9,6 +9,6 @@ int main() {
         bin[i]=rem;
         num=num/2;
     }
-    printf("%d",bin%10);
+    printf("%d",bin[pos]%10);
     return 0;
 }
