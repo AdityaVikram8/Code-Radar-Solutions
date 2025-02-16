@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d",&num,&pos);
     for(int i=0;i<num;i++){
         int rem=num%2;
-        bin=bin+rem;
+        bin[i]=rem;
         num=num/2;
     }
     for(int i=0;i<=pos;i++){
