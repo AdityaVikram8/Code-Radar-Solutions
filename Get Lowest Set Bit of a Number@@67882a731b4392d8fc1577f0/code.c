@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int num,pos,bin[30],num1;
+    int num,pos,bin[1025],num1;
     scanf("%d",&num);
     num1=num;
     for(int i=0;i<num1;i++){
