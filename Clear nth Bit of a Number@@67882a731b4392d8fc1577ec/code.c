@@ -19,5 +19,5 @@ int main(){
     for(int i=0;i<num1;i++){
         sum+=(bin[i]*(1<<i));
     }
-    printf("%d",(int)sum);
+    printf("%d",sum);
 }
