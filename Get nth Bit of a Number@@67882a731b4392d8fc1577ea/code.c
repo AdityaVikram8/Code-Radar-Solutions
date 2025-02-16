@@ -1,12 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int num,pos,bin;
+    int num,pos;
+    char bin;
     scanf("%d %d",&num,&pos);
+    for(int i=0;i<num;i++){
+        int rem=num%2;
+        bin=bin+'rem';
+        num=num/2;
+    }
     for(int i=0;i<=pos;i++){
-        int rem=num%10;
-        bin=bin+rem;
-        num=num/10;
+        int rem=bin%10;
+        bin=bin/10;
     }
     printf("%d",bin%10);
     return 0;
