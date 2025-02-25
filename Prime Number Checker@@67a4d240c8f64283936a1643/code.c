@@ -4,7 +4,7 @@
 int isPrime(int num);
 
 
-void isPrime(int num) {
+void isPrime(num) {
     if (num <= 1) {
         return 0;
     }
