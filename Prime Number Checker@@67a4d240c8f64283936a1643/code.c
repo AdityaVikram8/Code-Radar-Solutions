@@ -6,7 +6,6 @@ int isPrime(int num);
 
 void isPrime(int num) {
     if (num <= 1) {
-        printf("0\n");
         return 0;
     }
     for (int i = 2; i <=num; i++) {
