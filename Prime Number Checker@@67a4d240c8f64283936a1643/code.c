@@ -17,9 +17,10 @@ void isPrime(int num){
     if(num<=1){
         printf("%d",0);
     }else{
-        for(int i=2;i<=(int)sqrt(num);i++){
+        for(int i=2;i<=sqrt(num);i++){
             if(num%i==0){
                 printf("%d",0);
+                break;
             }
         }
     }
