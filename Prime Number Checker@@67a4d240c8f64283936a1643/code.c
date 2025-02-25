@@ -19,10 +19,10 @@ void isPrime(int num){
     }else{
         for(int i=2;i<=sqrt(num);i++){
             if(num%i==0){
-                printf("%d",0);
+                printf("0");
                 break;
             }
         }
     }
-    printf("%d",1);
+    printf("1");
 }
