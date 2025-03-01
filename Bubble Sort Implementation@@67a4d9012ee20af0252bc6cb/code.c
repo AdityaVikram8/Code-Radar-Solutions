@@ -9,7 +9,7 @@ int* bubbleSort(int arr[],int n){
                 swapped=1;
             }
         }
-        if(!swapped)break;
+        // if(!swapped)break;
     }
     return arr;
 }
