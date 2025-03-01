@@ -11,4 +11,5 @@ bubbleSort(int arr[],int n){
         }
         if(!swapped)break;
     }
+    return arr;
 }
