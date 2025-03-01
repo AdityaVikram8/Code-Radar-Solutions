@@ -1,10 +1,9 @@
 #include <stdio.h>
-// #include <math.h>
 
 int isPrime(int num);
 
 
-void isPrime(num) {
+int isPrime(num) {
     if (num <= 1) {
         return 0;
     }
