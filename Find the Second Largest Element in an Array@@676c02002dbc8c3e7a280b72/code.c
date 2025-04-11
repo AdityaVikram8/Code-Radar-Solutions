@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int n[];
-    int t[];
     int N;
     scanf("%d",&N);
+    int n[];
+    int t[];
     for(int i=0;i<N;i++){
         scanf("%d",n[i]);
     }
