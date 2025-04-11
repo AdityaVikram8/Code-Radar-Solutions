@@ -2,7 +2,7 @@
 int main(){
     int N;
     scanf("%d",&N);
-    if(N==1){
+    if(N<=1){
         return -1;
     }
     int n[N];
@@ -11,7 +11,7 @@ int main(){
         scanf("%d",&n[i]);
     }
     for(int i=0;i<N;i++){
-        int max=-9876598;
+        int max;
         for(int j=0;j<N;j++){
             if(max<n[j]){
                 max=n[j];
