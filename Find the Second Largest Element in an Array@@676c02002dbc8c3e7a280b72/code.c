@@ -20,4 +20,11 @@ int main(){
             max2 = n[i];
         }
     }
+    if (max2 == -2147483648) {
+        printf("No second maximum exists");
+    } else {
+        printf("%d", max2);
+    }
+
+    return 0;
 }
