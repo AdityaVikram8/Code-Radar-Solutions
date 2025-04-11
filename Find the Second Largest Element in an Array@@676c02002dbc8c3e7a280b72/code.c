@@ -2,8 +2,8 @@
 int main(){
     int N;
     scanf("%d",&N);
-    int n[];
-    int t[];
+    int n[N];
+    int t[N];
     for(int i=0;i<N;i++){
         scanf("%d",n[i]);
     }
