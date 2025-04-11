@@ -1,24 +1,27 @@
 #include <stdio.h>
 int main(){
     int N;
-    scanf("%d",&N);
-    if(N<=1){
-        return -1;
+    scanf("%d", &N);
+
+    if (N < 2) {
+        printf("Not enough elements");
+        return 0;
     }
+
     int n[N];
-    int t[N];
-    for(int i=0;i<N;i++){
-        scanf("%d",&n[i]);
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &n[i]);
     }
-    for(int i=0;i<N;i++){
-        int max;
-        for(int j=0;j<N;j++){
-            if(max<n[i]){
-                max=n[i];
-            }
+
+    int max1 = -2147483648; // Smallest possible int
+    int max2 = -2147483648;
+
+    for (int i = 0; i < N; i++) {
+        if (n[i] > max1) {
+            max2 = max1;
+            max1 = n[i];
+        } else if (n[i] > max2 && n[i] < max1) {
+            max2 = n[i];
         }
-        t[i]=max;
-        max=0;
     }
-    printf("%d",t[N-2]);
 }
