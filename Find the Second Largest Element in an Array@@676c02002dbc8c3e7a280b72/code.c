@@ -21,7 +21,7 @@ int main(){
         }
     }
     if (max2 == -2147483648) {
-        printf("No second maximum exists");
+        return -1;
     } else {
         printf("%d", max2);
     }
