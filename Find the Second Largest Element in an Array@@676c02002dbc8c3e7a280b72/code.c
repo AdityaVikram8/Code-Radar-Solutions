@@ -3,7 +3,7 @@ int main(){
     int N;
     scanf("%d", &N);
     if (N < 2) {
-        return -1;
+        printf("%d",-1);
     }
     int n[N];
     for (int i = 0; i < N; i++) {
@@ -20,7 +20,7 @@ int main(){
         }
     }
     if (max2 == -2147483648) {
-        return -1;
+        printf("%d",-1);
     } else {
         printf("%d", max2);
     }
