@@ -2,20 +2,16 @@
 int main(){
     int N;
     scanf("%d", &N);
-
     if (N < 2) {
         printf("Not enough elements");
-        return 0;
+        return -1;
     }
-
     int n[N];
     for (int i = 0; i < N; i++) {
         scanf("%d", &n[i]);
     }
-
-    int max1 = -2147483648; // Smallest possible int
+    int max1 = -2147483648;
     int max2 = -2147483648;
-
     for (int i = 0; i < N; i++) {
         if (n[i] > max1) {
             max2 = max1;
