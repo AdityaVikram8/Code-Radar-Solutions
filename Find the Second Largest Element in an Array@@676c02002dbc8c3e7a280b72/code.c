@@ -13,7 +13,7 @@ int main(){
     for(int i=0;i<N;i++){
         int max;
         for(int j=0;j<N;j++){
-            if(max<n[j]){
+            if(max<n[i]){
                 max=n[i];
             }
         }
