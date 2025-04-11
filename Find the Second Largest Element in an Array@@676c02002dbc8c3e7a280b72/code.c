@@ -13,8 +13,8 @@ int main(){
     for(int i=0;i<N;i++){
         int max=-9876598;
         for(int j=0;j<N;j++){
-            if(max<n[i]){
-                max=n[i];
+            if(max<n[j]){
+                max=n[j];
             }
         }
         t[i]=max;
