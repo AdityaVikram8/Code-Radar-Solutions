@@ -17,5 +17,5 @@ int main(){
         t[i]=max;
         max=0;
     }
-    printf("%d",t[1]);
+    printf("%d",t[N-2]);
 }
