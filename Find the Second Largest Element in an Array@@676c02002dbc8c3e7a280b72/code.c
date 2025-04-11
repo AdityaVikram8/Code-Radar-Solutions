@@ -3,7 +3,6 @@ int main(){
     int N;
     scanf("%d", &N);
     if (N < 2) {
-        printf("Not enough elements");
         return -1;
     }
     int n[N];
