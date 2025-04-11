@@ -14,7 +14,7 @@ int main(){
         int max;
         for(int j=0;j<N;j++){
             if(max<n[j]){
-                max=n[j];
+                max=n[i];
             }
         }
         t[i]=max;
